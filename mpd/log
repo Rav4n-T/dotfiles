@@ -1,0 +1,124 @@
+Jan 22 23:19 : exception: Failed to open '/home/Rav4n/.config/mpd/state': No such file or directory
+Jan 22 23:19 : exception: Failed to open '/home/Rav4n/.config/mpd/state': No such file or directory
+Jan 22 23:32 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:32 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:32 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:32 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:32 : update: added /2059510208-2.mp3
+Jan 22 23:35 : player: played "http://m801.music.126.net/20240122235722/943bd5c180b96cc75c330e18b7159d2d/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/29063767325/fdc4/85db/a4c6/0cf8d3051ec4e4a8605e079b35d8eea5.mp3"
+Jan 22 23:35 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:35 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:35 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:35 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:35 : update: added /1877996649-2.mp3
+Jan 22 23:38 : player: played "http://m701.music.126.net/20240123000038/ee18f9b6f9ff17f02d0f68a90cfbcdee/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/16734463620/5f96/566c/c9a4/7b9d87af926d45faba910a87e374c0d9.mp3"
+Jan 22 23:38 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:38 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:38 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:38 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:38 : update: added /26342437-2.mp3
+Jan 22 23:44 : player: played "http://m801.music.126.net/20240123000339/a6d34f5e46e1855dddac201fcc59cd83/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14705081463/4d3c/fd70/b9e7/b84a94c5a218c37850b9a53670274555.mp3"
+Jan 22 23:44 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:44 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:44 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:44 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:45 : update: added /2010376699-2.mp3
+Jan 22 23:45 : player: played "http://m701.music.126.net/20240123000954/3f13c76f50b8bcd64d5e6e886161680a/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/23621738856/1db6/1f85/8eed/e3c732f47568d88d932b86cad84e06a3.mp3"
+Jan 22 23:45 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:45 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:45 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:45 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:45 : update: added /439076364-2.mp3
+Jan 22 23:51 : player: played "http://m7.music.126.net/20240123001015/b98307b9e5d74e6315c544bbc0e016aa/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/3058338429/4585/6596/cf5d/23169f9c513aa33fae86220950da58b4.mp3"
+Jan 22 23:51 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:51 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:51 : update: added /2062630259-2.mp3
+Jan 22 23:52 : player: played "http://m701.music.126.net/20240123001617/a9f7eaa8f8470c601fcd5e9bbf81c624/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/29281392742/2f17/f5ef/2088/4d24dae26f625a13ee5193000ef946fb.mp3"
+Jan 22 23:52 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:52 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:52 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:52 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:52 : update: added /423703394-2.mp3
+Jan 22 23:57 : player: played "http://m8.music.126.net/20240123001709/b346198f8510dd6a5eaef194994978f3/ymusic/211b/09ac/7a05/c6b36d8cbb276ea96901a15fa9b4318e.mp3"
+Jan 22 23:57 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:57 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:57 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:57 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:57 : update: added /79939-2.mp3
+Jan 22 23:59 : player: played "http://m8.music.126.net/20240123001701/b1371a7857764e2a8da6fcb2dfaeb0f2/ymusic/27fuzwpAk3VHya2umeSoBA==/509951162779408276"
+Jan 22 23:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 22 23:59 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 22 23:59 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 00:00 : update: added /1322223907-2.mp3
+Jan 23 00:02 : player: played "http://m801.music.126.net/20240123002450/c64edb22c20d5ce7d25af612741a1ccf/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/19950010262/546f/cdbd/e33d/6c71db6be94891158cf054b0b7cd434d.mp3"
+Jan 23 00:02 : player: played "http://m801.music.126.net/20240123002450/c64edb22c20d5ce7d25af612741a1ccf/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/19950010262/546f/cdbd/e33d/6c71db6be94891158cf054b0b7cd434d.mp3"
+Jan 23 00:03 : update: updating /1322223907-2.mp3
+Jan 23 00:03 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 00:03 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 00:03 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 00:03 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 00:05 : player: played "1322223907-2.mp3"
+Jan 23 00:05 : player: played "1322223907-2.mp3"
+Jan 23 00:05 : update: updating /1322223907-2.mp3
+Jan 23 00:05 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 00:05 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 00:05 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 00:05 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 00:05 : player: played "1322223907-2.mp3"
+Jan 23 00:05 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 00:05 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 00:05 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 00:05 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 00:05 : player: played "http://m801.music.126.net/20240123003021/1e363e8b0f87005b927ff996312036ab/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/32071248086/fa63/6d65/7060/83aedb00fd9371c383ce6eae5bb56057.mp3"
+Jan 23 00:05 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 00:05 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 00:05 : player: played "http://m801.music.126.net/20240123003023/4aba5b67b8d0cce128c9f9ea379bd8e7/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/28482037557/01d0/fe0a/6b6a/62126e24c8357ca74f722aabb31e2ea5.mp3"
+Jan 23 00:05 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 00:05 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 00:05 : update: added /573843002-2.mp3
+Jan 23 00:05 : update: added /440208476-2.mp3
+Jan 23 00:05 : update: added /34497630-2.mp3
+Jan 23 00:05 : player: played "http://m801.music.126.net/20240123003025/29d2de3ecde606ed66c9822d2a02d354/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/32601616631/d2ae/1509/5c3f/2f022764d0aa0c12079dd824b4f2bce1.mp3"
+Jan 23 00:05 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 00:05 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 00:05 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 00:05 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 00:05 : update: added /1988232089-2.mp3
+Jan 23 02:03 : player: played "http://m801.music.126.net/20240123003048/665c9be985fa02d30ff2615271687e5d/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/20249860680/011a/9428/78b3/117279becb544bcaa33ee7e101332d7d.mp3"
+Jan 23 02:03 : player: played "http://m801.music.126.net/20240123003048/665c9be985fa02d30ff2615271687e5d/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/20249860680/011a/9428/78b3/117279becb544bcaa33ee7e101332d7d.mp3"
+Jan 23 02:03 : update: updating /1988232089-2.mp3
+Jan 23 02:03 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 02:03 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 02:03 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 02:03 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 02:04 : player: played "1988232089-2.mp3"
+Jan 23 02:04 : exception: All outputs are disabled
+Jan 23 02:04 : update: updating /1988232089-2.mp3
+Jan 23 02:04 : player: played "1988232089-2.mp3"
+Jan 23 18:04 : exception: All outputs are disabled
+Jan 23 18:20 : update: updating /1988232089-2.mp3
+Jan 23 18:20 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 18:20 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 18:20 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 18:20 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 19:17 : player: played "1988232089-2.mp3"
+Jan 23 19:44 : player: played "1988232089-2.mp3"
+Jan 23 19:44 : update: updating /1988232089-2.mp3
+Jan 23 19:44 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 19:44 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 19:44 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 19:44 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 19:48 : player: played "1988232089-2.mp3"
+Jan 23 19:48 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 19:48 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 19:48 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 19:48 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 19:48 : update: added /2117272400-2.mp3
+Jan 23 19:51 : player: played "http://m801.music.126.net/20240123201300/50da93d19500a161155304ec490f974d/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/32810000136/4112/5feb/e1e7/a381354f5594660724e48202ea406f2c.mp3"
+Jan 23 19:51 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 19:51 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 19:51 : mixer: Failed to set mixer for 'pulse audio': disconnected
+Jan 23 19:51 : exception: Failed to set mixer for 'pulse audio'; disconnected
+Jan 23 19:51 : update: added /1386921790-2.mp3
+Jan 23 21:56 : player: played "http://m8.music.126.net/20240123201604/ec1556be06fb2c3e1d3c585b3e06033c/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/14053549137/14bf/ae92/86ba/0cd850b63c3d902b2ddd50c0c77d5141.mp3"
