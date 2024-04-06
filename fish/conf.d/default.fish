@@ -1,4 +1,4 @@
-set -x HOME /home/Rav4n
+set -x HOME /home/raven
 
 set -x PATH ~/.local/share/go/bin $PATH
 
