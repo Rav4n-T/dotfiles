@@ -1,13 +1,10 @@
-Android Open Source Project/
-Google/
-obs-studio/
-yarn/
-nvim/
-xchat/
-ibus/
-go-musicfox/
-go/telemetry/
-com.pot-app.desktop/
-capacitor/
-fcitx/
-google-chrome/
+mpd/database
+mpd/pid
+mpd/state
+mpd/log
+
+go-musicfox/cache/
+go-musicfox/db/
+go-musicfox/cookie
+go-musicfox/music_cache
+go-musicfox/musicfox.log
