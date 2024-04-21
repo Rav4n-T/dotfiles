@@ -8,3 +8,6 @@ go-musicfox/db/
 go-musicfox/cookie
 go-musicfox/music_cache
 go-musicfox/musicfox.log
+
+go/.nvimlog
+go/telemetry/
