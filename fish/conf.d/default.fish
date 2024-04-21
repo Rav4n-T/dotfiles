@@ -1,10 +1,8 @@
 set -x HOME /home/Rav4n
 
-set -x PATH ~/.local/share/go/bin $PATH
-
 # Theme
-set -x XCURSOR_THEME "capitaine-cursors"
-set -x XCURSOR_SIZE 24
+#set -x XCURSOR_THEME "Nordic-cursors"
+#set -x XCURSOR_SIZE 24
 set -x GDK_BACKEND "wayland,x11"
 
 # XDG Specifications
@@ -16,6 +14,7 @@ set -x XDG_SESSION_TYPE "wayland"
 set -x QT_QPA_PLATFORM "wayland;xcb"
 #set -x QT_WAYLAND_DISABLE_WINDOWDECORATION 1
 # set -x QT_QPA_PLATFORMTHEME "qt5ct"
+set -x QT_SCREEN_SCALE_FACTOR "1;1" # "wayland;xcb"
 
 # other
 #set -x LC_ALL "en_US.UTF-8"
@@ -30,6 +29,3 @@ set -x QT_IM_MODULES "wayland;fcitx"
 set -x XMODIFIERS "@im=fcitx"
 
 set -x LIBSEAT_BACKEND "logind"
-
-# nodejs
-# set -x NODE_OPTIONS "--openssl-legacy-provider"

@@ -1,6 +1,7 @@
 set -x PATH /opt/nodejs/bin $PATH
 set -x NPM_CONFIG_USERCONFIG ~/.config/npm/npmrc
 set -x CAPACITOR_ANDROID_STUDIO_PATH /opt/android-studio/bin/studio.sh
+# set -x NODE_OPTIONS "--openssl-legacy-provider"
 
 # pnpm
 set -gx PNPM_HOME "/home/Rav4n/.local/share/pnpm"
