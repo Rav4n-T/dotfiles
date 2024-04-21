@@ -1,0 +1,26 @@
+(
+  selected_tab:Some(Rgb(247,241,255)),
+  command_fg: Some(Rgb(247,241,255)),
+  selection_bg: Some(Rgb(82,80,83)),
+  selection_fg: Some(Rgb(247,241,255)),
+  cmdbar_bg: Some(Rgb(82,80,83)),
+  cmdbar_extra_lines_bg: Some(Rgb(82,80,83)),
+  disabled_fg: Some(Rgb(139,136,143)),
+
+  diff_line_add: Some(Rgb(123,216,143)),
+  diff_line_delete:Some(Rgb(252,97,141)),
+  diff_file_added: Some(Rgb(123,216,143)),
+  diff_file_removed: Some(Rgb(252,97,141)),
+  diff_file_moved: Some(Rgb(148,138,227)),
+  diff_file_modified: Some(Rgb(252,229,102)),
+  commit_hash: Some(Rgb(148,138,227)),
+  commit_time: Some(Rgb(253,147,83)),
+  commit_author: Some(Rgb(123,216,143)),
+  danger_fg: Some(Rgb(252,97,141)),
+  push_gauge_bg: Some(Rgb(34,34,34)),
+  push_gauge_fg: Some(Rgb(34,198,222)),
+  tag_fg: Some(Rgb(148,138,227)),
+  branch_fg: Some(Rgb(252,229,102)),
+
+  line_break: Some(""),
+)
