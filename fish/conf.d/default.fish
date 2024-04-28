@@ -25,7 +25,7 @@ set -x LANGUAGE "zh_CN:en_US"
 # fcitx5
 set -x GTK_IM_MODULE "fcitx"
 set -x QT_IM_MODULE "fcitx"
-set -x QT_IM_MODULES "wayland;fcitx"
+#set -x QT_IM_MODULES "wayland;fcitx"
 set -x XMODIFIERS "@im=fcitx"
 
 set -x LIBSEAT_BACKEND "logind"
