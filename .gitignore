@@ -11,3 +11,5 @@ go-musicfox/musicfox.log
 
 go/.nvimlog
 go/telemetry/
+
+hypr/.nvimlog
