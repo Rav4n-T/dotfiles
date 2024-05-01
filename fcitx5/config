@@ -18,8 +18,6 @@ DeactivateKeys=
 
 [Hotkey/TriggerKeys]
 0=Shift+Shift_L
-1=Zenkaku_Hankaku
-2=Hangul
 
 [Hotkey/AltTriggerKeys]
 0=Shift_L
