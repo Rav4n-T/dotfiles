@@ -1,12 +1,12 @@
 {
   "layer": "top",
-  "output": "DP-2",
+  "output": "HDMI-A-1",
   "position": "top",
   "mod": "dock",
   "exclusive": true,
   "passthrough": false,
   "gtk-layer-shell": true,
-  "height": 50,
+  "height": 40,
   "modules-left": [
     "custom/launch_wofi",
     "wlr/workspaces",
@@ -57,7 +57,7 @@
 
   "custom/power_btn": {
     "format": "",
-    "on-click": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
+    "on-click": "sh -c '(sleep 0.5s; wlogout -b 2 --protocol layer-shell)' & disown",
     "tooltip": false,
   },
 
@@ -136,7 +136,7 @@
   },
 
   "clock": {
-    "format": "{:%I:%M %p}",
+    "format": "{:%Y-%m-%d %H:%M}",
     "tooltip": true,
     "tooltip-format": "{: %A, %B %e %Y}",
   },

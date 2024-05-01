@@ -1,13 +1,15 @@
 set -x HOME /home/Rav4n
 
 # Theme
-#set -x XCURSOR_THEME "Nordic-cursors"
-#set -x XCURSOR_SIZE 24
+# set -x HYPRCURSOR_THEME "theme_Catppuccin-Macchiato-Dark-Cursors"
+# set -x HYPRCURSOR_SIZE 24
+# set -x XCURSOR_THEME "Nordic-cursors"
+# set -x XCURSOR_SIZE 24
 set -x GDK_BACKEND "wayland,x11"
 
 # XDG Specifications
-#set -x XDG_CURRENT_DESKTOP "Hyprland"
-set -x XDG_CURRENT_DESKTOP "Plasma"
+set -x XDG_CURRENT_DESKTOP "Hyprland"
+#set -x XDG_CURRENT_DESKTOP "Plasma"
 set -x XDG_SESSION_TYPE "wayland"
 
 # QT
@@ -23,9 +25,9 @@ set -x LANG "zh_CN.UTF-8"
 set -x LANGUAGE "zh_CN:en_US"
 
 # fcitx5
-set -x GTK_IM_MODULE "fcitx"
+#set -x GTK_IM_MODULE "fcitx"
 set -x QT_IM_MODULE "fcitx"
-#set -x QT_IM_MODULES "wayland;fcitx"
+set -x QT_IM_MODULES "wayland;fcitx"
 set -x XMODIFIERS "@im=fcitx"
 
 set -x LIBSEAT_BACKEND "logind"

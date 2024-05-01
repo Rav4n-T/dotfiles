@@ -1,8 +1,8 @@
 # Start Hyprland at login
 if status is-login
     if test -z "$DISPLAY" -a $XDG_VTNR = 1
-        # exec Hyprland
-        exec startplasma-wayland
+         exec Hyprland
+	#exec startplasma-wayland
         # exec gnome-shell --wayland
         # MOZ_ENABLE_WAYLAND=1 QT_QPA_PLATFORM=wayland XDG_SESSION_TYPE=wayland exec dbus-run-session gnome-session
     end
