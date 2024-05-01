@@ -2,9 +2,9 @@ set -x HOME /home/Rav4n
 
 # Theme
 # set -x HYPRCURSOR_THEME "theme_Catppuccin-Macchiato-Dark-Cursors"
-# set -x HYPRCURSOR_SIZE 24
+set -x HYPRCURSOR_SIZE 24
 # set -x XCURSOR_THEME "Nordic-cursors"
-# set -x XCURSOR_SIZE 24
+set -x XCURSOR_SIZE 24
 set -x GDK_BACKEND "wayland,x11"
 
 # XDG Specifications
