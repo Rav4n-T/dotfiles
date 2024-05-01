@@ -1,5 +1,0 @@
-WARN  2024-02-13T05:32:53.286 4495  log_path_init:95: Failed to create directory /home/Rav4n for writing logs: Unknown system error 1
-WARN  2024-02-13T05:34:34.614 4716  log_path_init:95: Failed to create directory /home/rav4n for writing logs: Unknown system error 1
-WARN  2024-02-13T05:35:52.029 4871  log_path_init:95: Failed to create directory /home/rav4n for writing logs: Unknown system error 1
-WARN  2024-02-13T05:36:00.788 4884  log_path_init:95: Failed to create directory /home/rav4n for writing logs: Unknown system error 1
-WARN  2024-02-13T05:36:06.840 4896  log_path_init:95: Failed to create directory /home/rav4n for writing logs: Unknown system error 1
