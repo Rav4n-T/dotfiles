@@ -14,15 +14,17 @@
     "disk",
     "hyprland/window",
   ],
-  "modules-center": ["custom/lock_screen", "clock", "custom/power_btn"],
+  "modules-center": ["clock"],
   "modules-right": [
+    "mpris",
     "network",
     "battery",
     "backlight",
     "pulseaudio",
     "pulseaudio#microphone",
     "tray",
-    "custom/light_dark",
+    // "custom/light_dark",
+    "custom/power_btn",
   ],
 
   // left
@@ -47,8 +49,8 @@
       // "3": "",
       // "4": "",
       // "5": "",
-      "active": "",
-      "default": "",
+      "active": "",
+      "default": "",
     },
     "persistent-workspaces": {
       "HDMI-A-1": 9, // but only three on HDMI-A-1
@@ -57,9 +59,9 @@
 
   "cpu": {
     "interval": 10,
-    "format": " {usage}%",
+    "format": "󰻠 {usage}%",
     "max-length": 10,
-    "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'",
+    // "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'",
   },
 
   "disk": {
@@ -68,7 +70,7 @@
     "path": "/",
     "tooltip": true,
     "tooltip-format": "HDD - {used} used out of {total} on {path} ({percentage_used}%)",
-    "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'",
+    // "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'",
   },
 
   "memory": {
@@ -77,7 +79,7 @@
     "max-length": 10,
     "tooltip": true,
     "tooltip-format": "Memory - {used:0.1f}GB used",
-    "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'",
+    // "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'",
   },
 
   "hyprland/window": {
@@ -85,31 +87,56 @@
   },
 
   // center
-  "custom/lock_screen": {
-    "format": "",
-    // "on-click": "sh -c '(sleep 0.5s; hyprlock)' & disown",
-    "on-click": "hyprlock",
-    "tooltip": false,
-  },
-
   "clock": {
-    "format": "{:%Y-%m-%d %H:%M}",
-    "tooltip": true,
-    "tooltip-format": "{: %A, %B %e %Y}",
+    "format": "  {:%Y-%m-%d %H:%M %A}",
+    // "tooltip-format": "\n<span size='9pt' font='WenQuanYi Zen Hei Mono'>{calendar}</span>",
+    // "calendar": {
+    //   "mode": "year",
+    //   "mode-mon-col": 3,
+    //   "weeks-pos": "right",
+    //   "on-scroll": 1,
+    //   "on-click-right": "mode",
+    //   "format": {
+    //     "months": "<span color='#ffead3'><b>{}</b></span>",
+    //     "days": "<span color='#ecc6d9'><b>{}</b></span>",
+    //     "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+    //     "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+    //     "today": "<span color='#ff6699'><b><u>{}</u></b></span>",
+    //   },
+    // },
+    // "actions": {
+    //   "on-click-right": "mode",
+    //   "on-click-forward": "tz_up",
+    //   "on-click-backward": "tz_down",
+    //   "on-scroll-up": "shift_up",
+    //   "on-scroll-down": "shift_down",
+    // },
   },
-
-  "custom/power_btn": {
-    "format": "",
-    "on-click": "sh -c '(sleep 0.5s; wlogout -b 2 --protocol layer-shell)' & disown",
-    "tooltip": false,
+  "mpris": {
+    "format": "{player_icon} {dynamic}",
+    "format-paused": "{status_icon} {dynamic}",
+    "on-click": "playerctl play-pause",
+    "on-click-right": "playerctl stop",
+    "on-scroll-up": "playerctl previous",
+    "on-scroll-down": "playerctl next",
+    "scroll-step": 5,
+    "player-icons": {
+      "default": " ",
+      "musicfox": " ",
+      "mpv": "󰿎 ",
+      "chromium": " ",
+    },
+    "status-icons": {
+      "paused": "󰐎 ",
+    },
+    // "ignored-players": ["firefox"]
   },
-
   // right
-  "custom/light_dark": {
-    "format": "󰐾",
-    "on-click": "~/.config/waybar/scripts/baraction light",
-    "tooltip": false,
-  },
+  // "custom/light_dark": {
+  //   "format": "󰐾",
+  //   "on-click": "~/.config/waybar/scripts/baraction light",
+  //   "tooltip": false,
+  // },
   "network": {
     "interface": "enp11s0",
     "tooltip-format-ethernet": "{ifname}  {ipaddr}",
@@ -119,7 +146,7 @@
 
   "pulseaudio": {
     "format": "{icon} {volume}%",
-    "format-muted": "",
+    "format-muted": "󰖁",
     "on-click": "pamixer -t",
     "on-click-right": "pavucontrol",
     "on-scroll-up": "pamixer -i 5",
@@ -132,14 +159,14 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["", "", ""],
+      "default": ["󰕿", "󰖀", "󰕾"],
     },
   },
 
   "pulseaudio#microphone": {
     "format": "{format_source}",
-    "format-source": " {volume}%",
-    "format-source-muted": "",
+    "format-source": " {volume}%",
+    "format-source-muted": "󰍭",
     "on-click": "pamixer --default-source -t",
     "on-click-right": "pavucontrol",
     "on-scroll-up": "pamixer --default-source -i 5",
@@ -172,5 +199,11 @@
     "format-plugged": " {capacity}%",
     "format-alt": "{time} {icon}",
     "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+  },
+
+  "custom/power_btn": {
+    "format": "",
+    "on-click": "sh -c '(sleep 0.5s; wlogout -b 2 --protocol layer-shell)' & disown",
+    "tooltip": false,
   },
 }
