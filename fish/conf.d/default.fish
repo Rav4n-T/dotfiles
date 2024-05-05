@@ -15,7 +15,7 @@ set -x XDG_SESSION_TYPE "wayland"
 # QT
 set -x QT_QPA_PLATFORM "wayland;xcb"
 #set -x QT_WAYLAND_DISABLE_WINDOWDECORATION 1
-# set -x QT_QPA_PLATFORMTHEME "qt5ct"
+set -x QT_QPA_PLATFORMTHEME "qt5ct"
 set -x QT_SCREEN_SCALE_FACTOR "1;1" # "wayland;xcb"
 
 # other

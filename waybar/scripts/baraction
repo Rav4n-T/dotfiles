@@ -14,21 +14,21 @@ ln -sf ~/.config/waybar/style/style$SWITCHTO.css ~/.config/waybar/style.css
 #set the wofi theme
 ln -sf ~/.config/wofi/style/style$SWITCHTO.css ~/.config/wofi/style.css
 
-#set the xfce theme
-xfconf-query -c xsettings -p /Net/ThemeName -s "Adwaita$SWITCHTO"
-xfconf-query -c xsettings -p /Net/IconThemeName -s "Nordic-cursors"
-
+# #set the xfce theme
+# xfconf-query -c xsettings -p /Net/ThemeName -s "Adwaita$SWITCHTO"
+# xfconf-query -c xsettings -p /Net/IconThemeName -s "Nordic-cursors"
+#
 #set the GTK theme
-gsettings set org.gnome.desktop.interface gtk-theme "Adwaita$SWITCHTO"
-gsettings set org.gnome.desktop.interface icon-theme "Nordic-cursors"
+gsettings set org.gnome.desktop.interface gtk-theme "Everforest-Dark-BL"
+gsettings set org.gnome.desktop.interface icon-theme "Tela-circle-nord-dark"
 
 #change the background image and be cool about it ;)
 if [ $THEMEIS == "dark.css" ]; then
-  swww img --resize crop -o HDMI-A-1 ~/Pictures/wallpaper/test2.jpg --transition-fps 60 --transition-type center --transition-duration 2
-  swww img -o DP-2 ~/Pictures/wallpaper/test1.jpg --transition-fps 60 --transition-type center --transition-duration 2
+  swww img --resize crop -o DP-2 $HOME/.config/hypr/background/102.jpg --transition-fps 60 --transition-type center --transition-duration 2
+  swww img -o HDMI-A-1 $HOME/.config/hypr/background/009.png --transition-fps 60 --transition-type center --transition-duration 2
 else
-  swww img --resize crop -o HDMI-A-1  ~/Pictures/wallpaper/tes5.jpg --transition-fps 60 --transition-type center --transition-duration 2
-  swww img  -o DP-2  ~/Pictures/wallpaper/tes7.jpg --transition-fps 60 --transition-type center --transition-duration 2
+  swww img --resize crop -o DP-2  $HOME/.config/hypr/background/104.jpg --transition-fps 60 --transition-type center --transition-duration 2
+  swww img  -o HDMI-A-1  $HOME/.config/hypr/background/009.png --transition-fps 60 --transition-type center --transition-duration 2
 fi
 
 #update the sddm image

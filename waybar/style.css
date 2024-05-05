@@ -1,1 +1,133 @@
-/home/Rav4n/.config/waybar/style/style-dark.css
+@import "style/mocha.css";
+
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "CodeNewRoman Nerd Font Mono";
+  font-weight: bold;
+  min-height: 0;
+}
+
+#waybar {
+  background: transparent;
+  color: @text;
+  margin: 5px 0px;
+}
+
+tooltip {
+  background: @base;
+  opacity: 0.8;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #2f383e;
+}
+
+tooltip label {
+  color: @subtext0;
+}
+
+#workspaces {
+  font-size: 26px;
+  border-radius: 0px 10px 10px 0px;
+  margin-right: 10px;
+}
+
+#workspaces button {
+  color: @subtext1;
+  border-radius: 1rem;
+}
+
+#workspaces button.active {
+  color: @mauve;
+  border-radius: 1rem;
+}
+
+#workspaces button:hover {
+  color: @yellow;
+  border-radius: 1rem;
+}
+
+#custom-lock_screen,
+#custom-power_btn {
+  color: @red;
+}
+
+#cpu {
+  color: @green;
+}
+#disk {
+  color: @teal;
+}
+#memory {
+  color: @sky;
+}
+#window {
+  color: @peach;
+}
+#clock {
+  color: @rosewater;
+}
+
+#custom-lock_screen,
+#custom-light_dark,
+#custom-power_btn,
+#window,
+#cpu,
+#disk,
+#memory,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#tray,
+#workspaces,
+#backlight {
+  font-size: 18px;
+  background-color: @surface0;
+  padding: 0px 10px;
+  margin: 3px 0px;
+  opacity: 0.8;
+  margin-top: 10px;
+  border: 0px;
+}
+
+#tray,
+#custom-lock_screen,
+#backlight,
+#cpu {
+  font-size: 18px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#custom-light_dark,
+#custom-power_btn,
+#pulseaudio.microphone,
+#battery,
+#disk {
+  font-size: 18px;
+  border-radius: 0px 10px 10px 0px;
+  margin-right: 10px;
+}
+
+#window {
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+#pulseaudio {
+  color: @peach;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#pulseaudio.microphone {
+  color: @yellow;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#battery {
+  color: #a6e3a1;
+  border-left: 0px;
+}
