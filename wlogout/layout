@@ -1,22 +1,22 @@
 {
     "label" : "lock",
-    "action" : "swaylock",
+    "action" : "hyprlock",
     "text" : "Lock",
     "keybind" : "l"
 }
 
 {
     "label" : "suspend",
-    "action" : "swaylock -f && systemctl suspend",
+    "action" : "systemctl suspend",
     "text" : "Suspend",
-    "keybind" : "u"
+    "keybind" : "s"
 }
 
 {
     "label" : "shutdown",
     "action" : "systemctl poweroff",
     "text" : "Shutdown",
-    "keybind" : "s"
+    "keybind" : "d"
 }
 
 {
