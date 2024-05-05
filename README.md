@@ -117,7 +117,8 @@ ueberzugpp --show image in terminal
 
 go-musicfox
 mpd
-mpv
+mpv -- plugin [mpv-mpris](https://github.com/hoyon/mpv-mpris) need manually build
+playerctl
 obs-studio
 
 # Development
