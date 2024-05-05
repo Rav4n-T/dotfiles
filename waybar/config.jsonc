@@ -16,6 +16,7 @@
   ],
   "modules-center": ["custom/lock_screen", "clock", "custom/power_btn"],
   "modules-right": [
+    "network",
     "battery",
     "backlight",
     "pulseaudio",
@@ -30,13 +31,24 @@
     "sort-by-name": true,
     "format": " {icon} ",
     "format-icons": {
-      "1": "",
-      "2": "",
-      "3": "",
-      "4": "",
-      "5": "",
-      "active": "",
-      "default": "",
+      // "1": "󰲠",
+      // "2": "󰲢",
+      // "3": "󰲤",
+      // "4": "󰲦",
+      // "5": "󰲨",
+      // "6": "󰲪",
+      // "7": "󰲬",
+      // "8": "󰲮",
+      // "9": "󰲰",
+      // "10": "󰿬",
+      // "-99": "",
+      // "1": "",
+      // "2": "",
+      // "3": "",
+      // "4": "",
+      // "5": "",
+      "active": "",
+      "default": "",
     },
     "persistent-workspaces": {
       "HDMI-A-1": 9, // but only three on HDMI-A-1
@@ -97,6 +109,12 @@
     "format": "󰐾",
     "on-click": "~/.config/waybar/scripts/baraction light",
     "tooltip": false,
+  },
+  "network": {
+    "interface": "enp11s0",
+    "tooltip-format-ethernet": "{ifname}  {ipaddr}",
+    "interval": 2,
+    "format": " {bandwidthDownBits}  {bandwidthUpBits}",
   },
 
   "pulseaudio": {
