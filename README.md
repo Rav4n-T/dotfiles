@@ -15,12 +15,15 @@ qt6ct
 nwg-look
 lxappearance
 catppuccin-fcitx5-git
+fcitx5-gruvbox-dark-theme-git
 catppuccin-gtk-theeme-mocha
 catppuccin-gtk-theeme-macchiato
+gruvbox-dark-gtk
 catppuccin-mocha-dark-cursors
 papirus-folders-catppuccin-git
 papirus-icon-theme
 tela-circle-icon-theme-nord-git
+gruvbox-dark-icons-gtk
 gtk-engine-murrine
 
 # font
@@ -35,10 +38,16 @@ otf-codenewroman-nerd
 
 fcitx5
 fcitx5-chinese-addons
+fcitx5-pinyin-custom-pinyin-dictionary
 fcitx5-qt
+fcitx5-gtk
 fcitx5-configtool
 fcitx5-nord
 catppuccin-fcitx5-git
+
+## 浏览器中文输入快会上屏的问题
+
+- 在 $HOME/.config/gtk-3.0/settings.ini 中添加 gtk-im-module = fcitx
 
 # WM
 
@@ -134,3 +143,4 @@ npm
 android-studio
 base-devel
 webkit2gtk
+android-udev -- android device hot swapping
