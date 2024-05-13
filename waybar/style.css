@@ -24,7 +24,7 @@ tooltip {
 }
 
 tooltip label {
-  color: @maroon;
+  color: @subtext2;
 }
 
 #workspaces {
@@ -40,7 +40,7 @@ tooltip label {
 }
 
 #workspaces button {
-  color: @subtext1;
+  color: @teal;
   border-radius: 1rem;
 }
 
@@ -65,18 +65,8 @@ tooltip label {
   border: 1px;
   border-radius: 10px 0px 0px 10px;
 }
-#disk {
-  color: @teal;
-  font-size: 18px;
-  background-color: @surface0;
-  padding: 0px 10px;
-  margin: 3px 0px;
-  opacity: 0.8;
-  margin-top: 10px;
-  border: 0px;
-}
 #memory {
-  color: @sky;
+  color: @sapphire;
   font-size: 18px;
   background-color: @surface0;
   padding: 0px 10px;
@@ -85,6 +75,16 @@ tooltip label {
   margin-top: 10px;
   border: 0px;
   border-radius: 0px 10px 10px 0px;
+}
+#disk {
+  color: @blue;
+  font-size: 18px;
+  background-color: @surface0;
+  padding: 0px 10px;
+  margin: 3px 0px;
+  opacity: 0.8;
+  margin-top: 10px;
+  border: 0px;
 }
 
 #window {
@@ -123,7 +123,7 @@ tooltip label {
 /* } */
 
 #mpris {
-  color: @lavender;
+  color: @maroon;
   font-size: 18px;
   background-color: @surface0;
   padding: 0px 10px;
@@ -136,7 +136,7 @@ tooltip label {
 }
 
 #network {
-  color: @flamingo;
+  color: @sky;
   min-width: 200px;
   font-size: 18px;
   background-color: @surface0;
@@ -162,7 +162,7 @@ tooltip label {
 }
 
 #pulseaudio.microphone {
-  color: @yellow;
+  color: @pink;
   font-size: 18px;
   background-color: @surface0;
   padding: 0px 10px;
@@ -187,6 +187,7 @@ tooltip label {
 }
 
 #custom-power_btn {
+  color: @red;
   font-size: 18px;
   background-color: @surface0;
   padding: 0px 10px;

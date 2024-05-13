@@ -139,7 +139,7 @@
   // },
   "network": {
     "interface": "enp11s0",
-    "tooltip-format-ethernet": "{ifname}  {ipaddr}",
+    "tooltip-format-ethernet": "{ifname}   {ipaddr}",
     "interval": 2,
     "format": " {bandwidthDownBits}  {bandwidthUpBits}",
   },
@@ -149,8 +149,8 @@
     "format-muted": "󰖁",
     "on-click": "pamixer -t",
     "on-click-right": "pavucontrol",
-    "on-scroll-up": "pamixer -i 5",
-    "on-scroll-down": "pamixer -d 5",
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
     "scroll-step": 5,
     "format-icons": {
       "headphone": "",
@@ -202,7 +202,7 @@
   },
 
   "custom/power_btn": {
-    "format": "",
+    "format": " ",
     "on-click": "sh -c '(sleep 0.5s; wlogout -b 2 --protocol layer-shell)' & disown",
     "tooltip": false,
   },
