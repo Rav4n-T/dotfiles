@@ -1,3 +1,4 @@
+set -x IONIC_CONFIG_DIRECTORY ~/.config/ionic
 set -x ANDROID_HOME ~/.local/share/android/Sdk
 set -x ANDROID_SDK_ROOT ~/.local/share/android/Sdk
 set -x GRADLE_USER_HOME ~/.local/share/android/gradle
