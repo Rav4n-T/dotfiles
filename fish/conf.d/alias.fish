@@ -14,6 +14,8 @@ alias rrpn="fd --type file --exec sd Raven-gin"
 
 alias r="lfub"
 
+alias f="fastfetch"
+
 alias ga='git add .'
 alias gc='git commit -m'
 alias gd='git clone'
