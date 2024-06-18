@@ -83,7 +83,7 @@
   },
 
   "hyprland/window": {
-    "format": "{class}",
+    "format": "{title}",
     "icon": true,
   },
 
