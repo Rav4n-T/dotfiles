@@ -1,81 +1,59 @@
+@import "style/everforest.css";
+
+@define-color text #d3c6aa;
+@define-color select_text #475258;
+@define-color background #2d353b;
+@define-color outbox_bg #a7c080;
+
 window {
   margin: 0px;
-  border: 10px solid #1e1e2e;
-  background-color: #d3c6aa;
   border-radius: 15px;
 }
 
 #input {
-  padding: 4px;
-  margin: 4px;
-  padding-left: 20px;
+  margin: 6px 10px 10px 10px;
+  padding: 0 10px;
   border: none;
-  color: #d3c6aa;
-  font-weight: bold;
-  background-color: #1e1e2e;
-  outline: none;
-  border-radius: 15px;
-  margin: 10px;
-  margin-bottom: 2px;
+  color: @text;
+  /* outline: none; */
 }
-#input:focus {
-  /* border: 0px solid #d3c6aa; */
-  border: none;
-  margin-bottom: 0px;
-}
-
-#inner-box {
-  margin: 4px;
-  border: 10px solid #1e1e2e;
-  color: #d3c6aa;
-  font-weight: bold;
-  background-color: #1e1e2e;
-  border-radius: 15px;
-}
+/* #input:focus { */
+/*   outline-style: none; */
+/*   outline-color: @background; */
+/*   border: 2px solid @background; */
+/* } */
 
 #outer-box {
-  margin: 0px;
-  /* border: none; */
-  border: 2px solid #cba6f7;
+  padding: 4px;
+  border: 2px solid @outbox_bg;
   border-radius: 15px;
-  background-color: #1e1e2e;
+  background-color: @background;
 }
 
 #scroll {
-  margin-top: 5px;
   border: none;
   border-radius: 15px;
-  margin-bottom: 5px;
-  /* background: rgb(255, 255, 255); */
 }
 
 #img {
   margin-right: 8px;
 }
 
-#img:selected {
-  background-color: #cba6f7;
-  border-radius: 10px;
-}
-
 #text:selected {
-  color: #4a555b;
+  color: @select_text;
   margin: 0px 0px;
   border: none;
   border-radius: 10px;
-  background-color: #cba6f7;
 }
 
 #entry {
-  margin: 0px 0px;
-  border: none;
-  border-radius: 15px;
+  margin: 2px 2px;
+  padding: 4px 8px;
+  color: @text;
+  border-radius: 10px;
   background-color: transparent;
 }
 
 #entry:selected {
-  margin: 0px 0px;
-  border: none;
-  border-radius: 10px;
-  background-color: #cba6f7;
+  background-color: @outbox_bg;
 }
