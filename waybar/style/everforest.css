@@ -26,10 +26,10 @@
 @define-color text #D3C6AA;
 @define-color subtext #D3C6AA;
 @define-color workspace_normal #D3C6AA;
-@define-color workspace_active #a7c080;
-@define-color workspace_hover #83c092;
+@define-color workspace_active #83c092;
+@define-color workspace_hover #e67e80;
 @define-color window_title #7fbbb3;
-@define-color date_text #d699b6;
+@define-color date_text #a7c080;
 
 @define-color black    #475258;
 @define-color red      #e67e80;
