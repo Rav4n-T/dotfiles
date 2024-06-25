@@ -15,6 +15,11 @@ qt6ct
 nwg-look
 lxappearance
 catppuccin-fcitx5-git
+
+> gtk theme and cursors theme and icons theme all in the theme folder
+
+## not use theme
+
 fcitx5-gruvbox-dark-theme-git
 catppuccin-gtk-theeme-mocha
 catppuccin-gtk-theeme-macchiato
@@ -54,7 +59,9 @@ catppuccin-fcitx5-git
 hyprland
 waybar
 wofi
+alacritty
 foot
+wezterm
 mako
 hyprlock
 hypridle
@@ -64,6 +71,7 @@ polkit-gnome
 xdg-desktop-portal-hyprland
 qt5-wayland
 qt6-wayland
+udiskie -- auto mount usb
 
 # Voice
 
@@ -98,17 +106,27 @@ network-manager-applet
 thunderbird -- mail client
 foliate -- reader
 nemo -- file manager
-file-roller -- file roller
+xarchiver -- file roller
 wechat-universal
 telegram-desktop
 chromium
+microsoft-edge-stable-bin
+floorp-bin
+
+## archiver tool
+
+unrar
+unzip
+p7zip
+lzip
+lzop
+zip
+tar
 
 # terminal Tool
 
 sudo
 fish -- shell
-unrar
-unzip
 wget
 curl
 neovim
@@ -121,6 +139,7 @@ sd
 jq
 lf -- file manager with terminal
 ueberzugpp --show image in terminal
+pipes-rs
 
 # Audio & Video
 
@@ -130,7 +149,7 @@ mpv -- plugin [mpv-mpris](https://github.com/hoyon/mpv-mpris) need manually buil
 playerctl
 obs-studio
 
-# Development
+# Development tools
 
 git
 git-filter-repo
