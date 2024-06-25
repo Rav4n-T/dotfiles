@@ -12,8 +12,6 @@ alias npsm='procs -w --sortd UsageMem'
 alias rgpn="fd --type file --exec sd"
 alias rrpn="fd --type file --exec sd Raven-gin"
 
-alias r="lfub"
-
 alias f="fastfetch"
 
 alias ga='git add .'
