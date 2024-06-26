@@ -23,10 +23,6 @@ alias gi='git status'
 alias gs='git show'
 alias gl='git log'
 
-alias zs="zellij -s"
-alias zsf="zellij -s Full -l full"
-alias za="zellij a"
-
 alias g="gitui"
 
 alias sunup="systemctl start runsunloginclient.service"

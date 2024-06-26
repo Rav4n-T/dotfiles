@@ -163,3 +163,4 @@ android-studio
 base-devel
 webkit2gtk
 android-udev -- android device hot swapping
+hurl -- http testing tool

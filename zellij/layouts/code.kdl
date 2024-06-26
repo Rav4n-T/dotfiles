@@ -14,7 +14,5 @@ layout {
       pane size="20%" 
     }
     
-    code_tab name="Forent"
-    code_tab name="Backend"
-    code_tab name="Rest"
+    code_tab name="Code"
 }
