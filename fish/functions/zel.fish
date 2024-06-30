@@ -1,4 +1,4 @@
-function start_zellij
+function zel
     if not set -q ZELLIJ
         if test "$ZELLIJ_AUTO_ATTACH" = "true"
             zellij attach -c Raven

@@ -11,15 +11,24 @@ keybinds clear-defaults=true {
         bind "Ctrl q" { Detach; }
         bind "Alt p" { ToggleFloatingPanes; }
         bind "Alt x" { CloseFocus; }
+        bind "Alt n" { NewPane; }
+        bind "Alt h" { MoveFocus "Left"; }
+        bind "Alt l" { MoveFocus "Right"; }
+        bind "Alt j" "Alt Down" { MoveFocus "Down"; }
+        bind "Alt k" "Alt Up" { MoveFocus "Up"; }
+        bind "Alt =" "Alt +" { Resize "Increase"; }
+        bind "Alt -" { Resize "Decrease"; }
+        bind "Alt a" { GoToPreviousTab; }
+        bind "Alt f" { GoToNextTab; }
+        bind "Alt s" { NewTab; }
+        bind "Alt d" { CloseTab; }
     }
     resize {
-        bind "Ctrl r" { SwitchToMode "Normal"; }
+        bind "Ctrl y" { SwitchToMode "Normal"; }
         bind "h" "Left" { Resize "Left"; }
         bind "j" "Down" { Resize "Down"; }
         bind "k" "Up" { Resize "Up"; }
         bind "l" "Right" { Resize "Right"; }
-        bind "=" "+" { Resize "Increase"; }
-        bind "-" { Resize "Decrease"; }
     }
     pane {
         bind "Ctrl p" { SwitchToMode "Normal"; }
@@ -27,7 +36,6 @@ keybinds clear-defaults=true {
         bind "l" "Right" { MoveFocus "Right"; }
         bind "j" "Down" { MoveFocus "Down"; }
         bind "k" "Up" { MoveFocus "Up"; }
-        bind "p" { SwitchFocus; }
         bind "n" { NewPane; SwitchToMode "Normal"; }
         bind "d" { NewPane "Down"; SwitchToMode "Normal"; }
         bind "r" { NewPane "Right"; SwitchToMode "Normal"; }
@@ -66,16 +74,16 @@ keybinds clear-defaults=true {
         bind "Tab" { ToggleTab; }
     }
     scroll {
-        bind "Ctrl f" { SwitchToMode "Normal"; }
+        bind "Ctrl b" { SwitchToMode "Normal"; }
         bind "e" { EditScrollback; SwitchToMode "Normal"; }
         bind "s" { SwitchToMode "EnterSearch"; SearchInput 0; }
         bind "Ctrl c" { ScrollToBottom; SwitchToMode "Normal"; }
         bind "j" "Down" { ScrollDown; }
         bind "k" "Up" { ScrollUp; }
-        bind "Ctrl f" "PageDown" "Right" "l" { PageScrollDown; }
-        bind "Ctrl b" "PageUp" "Left" "h" { PageScrollUp; }
-        bind "d" { HalfPageScrollDown; }
-        bind "u" { HalfPageScrollUp; }
+        bind "PageDown" "Right" "d" { PageScrollDown; }
+        bind "PageUp" "Left" "u" { PageScrollUp; }
+        bind "l" { HalfPageScrollDown; }
+        bind "h" { HalfPageScrollUp; }
         // uncomment this and adjust key if using copy_on_select=false
         // bind "Alt c" { Copy; }
     }
@@ -122,13 +130,6 @@ keybinds clear-defaults=true {
         bind "Ctrl g" { SwitchToMode "Locked"; }
 //        bind "Ctrl q" { Detach; }
         bind "Ctrl q" { Quit; }
-//        bind "Alt n" { NewPane; }
-//        bind "Alt h" "Alt Left" { MoveFocusOrTab "Left"; }
-//        bind "Alt l" "Alt Right" { MoveFocusOrTab "Right"; }
-//        bind "Alt j" "Alt Down" { MoveFocus "Down"; }
-//        bind "Alt k" "Alt Up" { MoveFocus "Up"; }
-//        bind "Alt =" "Alt +" { Resize "Increase"; }
-//        bind "Alt -" { Resize "Decrease"; }
     }
     shared_except "normal" "locked" {
         bind "Enter" "Space" "Esc" { SwitchToMode "Normal"; }
@@ -137,10 +138,10 @@ keybinds clear-defaults=true {
         bind "Ctrl p" { SwitchToMode "Pane"; }
     }
     shared_except "resize" "locked" {
-        bind "Ctrl r" { SwitchToMode "Resize"; }
+        bind "Ctrl y" { SwitchToMode "Resize"; }
     }
     shared_except "scroll" "locked" {
-        bind "Ctrl f" { SwitchToMode "Scroll"; }
+        bind "Ctrl b" { SwitchToMode "Scroll"; }
     }
     shared_except "session" "locked" {
         bind "Ctrl s" { SwitchToMode "Session"; }
@@ -198,7 +199,7 @@ copy_on_select true
 
 // session
 on_force_close "detach"
-mirror_session true
+mirror_session false
 session_serialization true
 pane_viewport_serialization true
 scrollback_lines_to_serialize 100
