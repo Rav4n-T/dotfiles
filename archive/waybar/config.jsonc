@@ -1,0 +1,210 @@
+{
+  "layer": "top",
+  "output": "HDMI-A-1",
+  "position": "top",
+  "mod": "dock",
+  "exclusive": true,
+  "passthrough": false,
+  "gtk-layer-shell": true,
+  // "height": 40,
+  "modules-left": [
+    "hyprland/workspaces",
+    "cpu",
+    "memory",
+    "disk",
+    "hyprland/window",
+  ],
+  "modules-center": ["clock"],
+  "modules-right": [
+    "mpris",
+    "network",
+    "battery",
+    "backlight",
+    "pulseaudio",
+    "pulseaudio#microphone",
+    "tray",
+    // "custom/light_dark",
+    "custom/power_btn",
+  ],
+
+  // left
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "sort-by-name": true,
+    "format": " {icon} ",
+    "format-icons": {
+      // "1": "󰲠",
+      // "2": "󰲢",
+      // "3": "󰲤",
+      // "4": "󰲦",
+      // "5": "󰲨",
+      // "6": "󰲪",
+      // "7": "󰲬",
+      // "8": "󰲮",
+      // "9": "󰲰",
+      // "10": "󰿬",
+      // "-99": "",
+      // "1": "",
+      // "2": "",
+      // "3": "",
+      // "4": "",
+      // "5": "",
+      "active": "",
+      "default": "",
+    },
+    "persistent-workspaces": {
+      "HDMI-A-1": 9, // but only three on HDMI-A-1
+    },
+  },
+
+  "cpu": {
+    "interval": 10,
+    "format": "󰻠 {usage}%",
+    "max-length": 10,
+    // "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'",
+  },
+
+  "disk": {
+    "interval": 30,
+    "format": "󰋊 {percentage_used}%",
+    "path": "/",
+    "tooltip": true,
+    "tooltip-format": "HDD - {used} used out of {total} on {path} ({percentage_used}%)",
+    // "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'",
+  },
+
+  "memory": {
+    "interval": 30,
+    "format": " {}%",
+    "max-length": 10,
+    "tooltip": true,
+    "tooltip-format": "Memory - {used:0.1f}GB used",
+    // "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'",
+  },
+
+  "hyprland/window": {
+    "format": "{title}",
+    "icon": true,
+  },
+
+  // center
+  "clock": {
+    "format": "  {:%Y-%m-%d %H:%M %A}",
+    // "tooltip-format": "\n<span size='9pt' font='WenQuanYi Zen Hei Mono'>{calendar}</span>",
+    // "calendar": {
+    //   "mode": "year",
+    //   "mode-mon-col": 3,
+    //   "weeks-pos": "right",
+    //   "on-scroll": 1,
+    //   "on-click-right": "mode",
+    //   "format": {
+    //     "months": "<span color='#ffead3'><b>{}</b></span>",
+    //     "days": "<span color='#ecc6d9'><b>{}</b></span>",
+    //     "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+    //     "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+    //     "today": "<span color='#ff6699'><b><u>{}</u></b></span>",
+    //   },
+    // },
+    // "actions": {
+    //   "on-click-right": "mode",
+    //   "on-click-forward": "tz_up",
+    //   "on-click-backward": "tz_down",
+    //   "on-scroll-up": "shift_up",
+    //   "on-scroll-down": "shift_down",
+    // },
+  },
+  "mpris": {
+    "format": "{player_icon} {dynamic}",
+    "format-paused": "{status_icon} {dynamic}",
+    "on-click": "playerctl play-pause",
+    "on-click-right": "playerctl stop",
+    "on-scroll-up": "playerctl previous",
+    "on-scroll-down": "playerctl next",
+    "scroll-step": 5,
+    "player-icons": {
+      "default": " ",
+      "musicfox": " ",
+      "mpv": "󰿎 ",
+      "chromium": " ",
+    },
+    "status-icons": {
+      "paused": "󰐎 ",
+    },
+    // "ignored-players": ["firefox"]
+  },
+  // right
+  // "custom/light_dark": {
+  //   "format": "󰐾",
+  //   "on-click": "~/.config/waybar/scripts/baraction light",
+  //   "tooltip": false,
+  // },
+  "network": {
+    "interface": "enp11s0",
+    "tooltip-format-ethernet": "{ifname}   {ipaddr}",
+    "interval": 2,
+    "format": " {bandwidthDownBits}  {bandwidthUpBits}",
+  },
+
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "󰖁",
+    "on-click": "pamixer -t",
+    "on-click-right": "pavucontrol",
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
+    "scroll-step": 5,
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["󰕿", "󰖀", "󰕾"],
+    },
+  },
+
+  "pulseaudio#microphone": {
+    "format": "{format_source}",
+    "format-source": " {volume}%",
+    "format-source-muted": "󰍭",
+    "on-click": "pamixer --default-source -t",
+    "on-click-right": "pavucontrol",
+    "on-scroll-up": "pamixer --default-source -i 5",
+    "on-scroll-down": "pamixer --default-source -d 5",
+    "scroll-step": 5,
+  },
+
+  "tray": {
+    "icon-size": 18,
+    "spacing": 10,
+  },
+
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": ["󰃞", "󰃟", "󰃠"],
+    "on-scroll-up": "brightnessctl set 1%+",
+    "on-scroll-down": "brightnessctl set 1%-",
+    "min-length": 6,
+  },
+
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 20,
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{time} {icon}",
+    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+  },
+
+  "custom/power_btn": {
+    "format": " ",
+    "on-click": "sh -c '(sleep 0.5s; wlogout -b 2 --protocol layer-shell)' & disown",
+    "tooltip": false,
+  },
+}
