@@ -61,17 +61,22 @@ waybar
 wofi
 alacritty
 foot
-wezterm
-mako
 hyprlock
 hypridle
-wlogout
 wl-clipboard
 polkit-gnome
 xdg-desktop-portal-hyprland
 qt5-wayland
 qt6-wayland
 udiskie -- auto mount usb
+swaync
+swayosd
+
+## Not Use
+
+mako
+wlogout
+wezterm
 
 # Voice
 
