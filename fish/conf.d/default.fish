@@ -3,7 +3,7 @@ set -x HOME /home/Rav4n
 # Theme
 # set -x HYPRCURSOR_THEME "theme_Catppuccin-Macchiato-Dark-Cursors"
 set -x HYPRCURSOR_SIZE 24
-# set -x XCURSOR_THEME "Nordic-cursors"
+set -x XCURSOR_THEME "Colloid-dark-cursors"
 set -x XCURSOR_SIZE 24
 set -x GDK_BACKEND "wayland,x11"
 
@@ -15,7 +15,7 @@ set -x XDG_SESSION_TYPE "wayland"
 # QT
 set -x QT_QPA_PLATFORM "wayland;xcb"
 #set -x QT_WAYLAND_DISABLE_WINDOWDECORATION 1
-set -x QT_QPA_PLATFORMTHEME "qt5ct"
+set -x QT_QPA_PLATFORMTHEME "qt6ct"
 set -x QT_SCREEN_SCALE_FACTOR "1;1" # "wayland;xcb"
 
 # other
