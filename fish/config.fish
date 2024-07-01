@@ -6,7 +6,7 @@ if status is-login
         # exec gnome-shell --wayland
         # MOZ_ENABLE_WAYLAND=1 QT_QPA_PLATFORM=wayland XDG_SESSION_TYPE=wayland exec dbus-run-session gnome-session
     else
-      start_zellij
+      # zel
     end
 end
 
