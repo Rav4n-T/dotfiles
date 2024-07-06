@@ -27,3 +27,5 @@ alias g="gitui"
 
 alias sunup="systemctl start runsunloginclient.service"
 alias sundown="systemctl stop runsunloginclient.service"
+
+alias r="yazi"

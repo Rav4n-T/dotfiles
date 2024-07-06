@@ -16,5 +16,5 @@ layout {
     
     code_tab name="Forent"
     code_tab name="Backend"
-    code_tab name="Rest"
+    tab name="Rest"
 }
