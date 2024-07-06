@@ -68,6 +68,7 @@
   "hyprland/window": {
     "format": "{title}",
     "icon": true,
+    "max-length": 60,
   },
 
   // center
@@ -93,6 +94,7 @@
     "status-icons": {
       "paused": "󰐎 ",
     },
+    "max-length": 60,
   },
 
   "network": {
