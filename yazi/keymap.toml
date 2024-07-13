@@ -5,8 +5,8 @@ prepend_keymap = [
   { on  = [ "J" ],        run = "plugin --sync parent-arrow --args=1",  desc = "Move parent cursor down"},
   { on = [ "l" ],         run = "plugin --sync smart-enter",            desc = "Enter the child directory, or open the file" },
   { on = [ "p" ],         run = "plugin --sync smart-paste",            desc = "Paste into the hovered directory or CWD" },
-	{ on = [ "d" ],         run = "remove --force",                       desc = "Move the files to the trash" },
-	{ on = [ "D" ],         run = "remove --permanently --force",         desc = "Permanently delete the files" },
+	{ on = [ "D" ],         run = "remove --force",                       desc = "Move the files to the trash" },
+	{ on = [ "d" ],         run = "remove --permanently --force",         desc = "Permanently delete the files" },
   { on = [ "r" ],         run = "rename --cursor=start --empty=stem",   desc = "Rename a file or directory" },
 ]
 
