@@ -12,9 +12,9 @@ return {
 	--   webgpu_power_preference = 'HighPerformance',
 
 	-- color scheme
-	-- color_scheme = "Everforest Dark (Gogh)",
+	color_scheme = "Everforest Dark (Gogh)",
 	-- color_scheme = "Catppuccin Mocha (Gogh)",
-	color_scheme = "Catppuccin Mocha",
+	-- color_scheme = "Catppuccin Mocha",
 
 	-- background
 	window_background_opacity = 0.9,
