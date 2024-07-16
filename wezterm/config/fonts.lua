@@ -1,7 +1,7 @@
 local wezterm = require("wezterm")
 local platform = require("utils.platform")
 
-local font = "CodeNewRoman Nerd Font Mono"
+local font = "RecMonoCasual Nerd Font Mono"
 local font_type = { weight = "Regular", italic = true }
 local font_size = platform().is_linux and 14 or 9
 
