@@ -38,6 +38,7 @@ adobe-source-code-pro-fonts
 noto-font
 noto-fonts-emoji
 otf-codenewroman-nerd
+ttf-recursive-nerd
 
 # fcitx5
 
@@ -59,8 +60,8 @@ catppuccin-fcitx5-git
 hyprland
 waybar
 wofi
+kitty
 alacritty
-foot
 hyprlock
 hypridle
 wl-clipboard
@@ -77,6 +78,7 @@ swayosd
 mako
 wlogout
 wezterm
+foot
 
 # Voice
 
