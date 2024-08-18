@@ -70,5 +70,5 @@ return {
 	inactive_pane_hsb = { saturation = 1.0, brightness = 1.0 },
 
 	-- wayland
-	enable_wayland = false,
+	enable_wayland = true,
 }
