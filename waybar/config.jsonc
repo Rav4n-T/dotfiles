@@ -1,6 +1,6 @@
 {
   "layer": "top",
-  "output": "HDMI-A-1",
+  "output": "DP-2",
   "position": "top",
   "mod": "dock",
   "exclusive": true,
@@ -36,7 +36,7 @@
       "default": "<span color='#7A8478'></span>",
     },
     "persistent-workspaces": {
-      "HDMI-A-1": 9, // but only three on HDMI-A-1
+      "DP-2": 6, // but only three on HDMI-A-1
     },
   },
 
@@ -44,7 +44,7 @@
     "interval": 10,
     "format": "󰻠 {usage}%",
     "max-length": 10,
-    "on-click": "/usr/bin/kitty -T Monitor /usr/bin/btm",
+    "on-click": "/usr/bin/footclient -T Monitor /usr/bin/btm",
     // "on-click": "/usr/bin/alacritty -T Monitor -e /usr/bin/btm",
   },
 
@@ -54,7 +54,7 @@
     "max-length": 10,
     "tooltip": true,
     "tooltip-format": "Memory - {used:0.1f}GB used",
-    "on-click": "/usr/bin/kitty -T Monitor /usr/bin/btm",
+    "on-click": "/usr/bin/footclient -T Monitor /usr/bin/btm",
     // "on-click": "/usr/bin/alacritty -T Monitor -e /usr/bin/btm",
   },
 
@@ -64,7 +64,7 @@
     "path": "/",
     "tooltip": true,
     "tooltip-format": "HDD - {used} used out of {total} on {path} ({percentage_used}%)",
-    "on-click": "/usr/bin/kitty -T Monitor /usr/bin/btm",
+    "on-click": "/usr/bin/footclient -T Monitor /usr/bin/btm",
     // "on-click": "/usr/bin/alacritty -T Monitor -e /usr/bin/btm",
   },
 
@@ -106,17 +106,17 @@
     "tooltip-format-ethernet": "{ifname}   {ipaddr}",
     "interval": 2,
     "format": " {bandwidthDownBits}  {bandwidthUpBits}",
-    "on-click": "/usr/bin/kitty -T Monitor /usr/bin/btm",
+    "on-click": "/usr/bin/footclient -T Monitor /usr/bin/btm",
     // "on-click": "/usr/bin/alacritty -T Monitor -e /usr/bin/btm",
   },
 
   "pulseaudio": {
     "format": " <span color='#A7C080'>{icon}</span> ",
     "format-muted": " <span color ='#A7C080'>󰖁</span> ",
-    "on-click": "pamixer -t",
+    "on-click": "swayosd-client --output-volume mute-toggle & play /usr/share/sounds/ocean/stereo/audio-volume-change.oga",
     "on-click-right": "pavucontrol",
-    // "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
-    // "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
+    "on-scroll-up": "swayosd-client --output-volume 2 --max-volume 150 & play /usr/share/sounds/ocean/stereo/audio-volume-change.oga",
+    "on-scroll-down": "swayosd-client --output-volume -2 --max-volume 150 & play /usr/share/sounds/ocean/stereo/audio-volume-change.oga",
     "scroll-step": 1,
     "tooltip": true,
     "tooltip-format": "Volume - {volume}%",
