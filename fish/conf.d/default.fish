@@ -1,4 +1,5 @@
 set -x HOME /home/Rav4n
+set -x PATH $HOME/.local/bin $PATH
 
 # Theme
 # set -x HYPRCURSOR_THEME "theme_Catppuccin-Macchiato-Dark-Cursors"
